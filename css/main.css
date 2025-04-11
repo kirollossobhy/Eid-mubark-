@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-container {
+    background-image: url('../img/ED0374C2-248F-4A1A-8E2B-219216D022A5.svg'); /* بدلها برابط الصورة */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+  }
+
+  .bg-container input {
+  position: absolute;
+  bottom: 32px;
+  right: 50%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 12px 51px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 20px 20px; /* Add padding */
+    margin-top: 50px; /* Add margin */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for proper spacing */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button a {
+    text-decoration: none; /* Ensure no underline for the link */
+    color: inherit; /* Inherit text color from the button */
+  }
+
+
+
+
