@@ -11,7 +11,7 @@ document.getElementById('download-btn').addEventListener('click', function () {
     const context = canvas.getContext('2d');
     const image = new Image();
   
-    image.src = './images/sample-image.jpg'; // Path to your image
+    image.src = '../img/ED0374C2-248F-4A1A-8E2B-219216D022A5.svg'; // Path to your image
     image.onload = function () {
       // Set canvas dimensions to match the image
       canvas.width = image.width;
