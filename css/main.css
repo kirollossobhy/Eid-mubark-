@@ -27,8 +27,9 @@ body{
   background-color: transparent;
   color: white;
   text-align: center;
-  background-color:#2C4977 ;
-  padding: 5px 31px;
+  background-color: transparent;
+  /* background-color:#2C4977 ; */
+  padding: 5px 30px;
   font-family: "Cairo", sans-serif;
   font-size: 22px;
   font-weight: 700;
